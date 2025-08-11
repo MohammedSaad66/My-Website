@@ -3,32 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Assignment Website</title>
-
+    <title>My Enhanced Website</title>
     <link rel="stylesheet" href="style.css">
-
-    <style>
-        /* This style applies only to the list */
-        ul {
-            list-style-type: square; /* Changes the bullet points to squares */
-            color: #005792; /* A dark blue color for the list text */
-        }
-    </style>
 </head>
 <body>
 
-    <header>
-        <h1>Welcome to My Website!</h1>
-    </header>
+    <div class="container">
+        <h1>Welcome to My Updated Website!</h1>
+        <p>This version includes a new color scheme and embedded media.</p>
+    </div>
 
-    <main>
-        <p style="color: green; font-weight: bold;">
-            This website demonstrates all the requirements for my college assignment.
-        </p>
+    <div class="container">
+        <h2>My Image</h2>
+        <img src="my-image.jpg" alt="A descriptive caption for your image">
+    </div>
 
-        <hr>
+    <div class="container">
+        <h2>My Audio</h2>
+        <p>Listen to this sample audio file.</p>
+        <audio controls>
+            <source src="my-audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
 
-        <h2>My Class Schedule (Table)</h2>
+    <div class="container">
+        <h2>My Video</h2>
+        <video controls>
+            <source src="my-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="container">
+        <h2>My Class Schedule</h2>
         <table>
             <tr>
                 <th>Day</th>
@@ -46,39 +54,16 @@
                 <td>11:00 AM</td>
             </tr>
         </table>
+    </div>
 
-        <hr>
-
-        <h2>My Hobbies (List)</h2>
+    <div class="container">
+        <h2>My Hobbies</h2>
         <ul>
             <li>Playing Cricket</li>
             <li>Watching Movies</li>
             <li>Coding</li>
         </ul>
-
-        <hr>
-
-        <h2>An Image (Image)</h2>
-        <img src="my_photo.jpg" alt="A photo of me" width="300">
-
-        <hr>
-
-        <h2>Sample Audio (Audio with Controls)</h2>
-        <audio controls>
-            <source src="my_song.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
-
-        <hr>
-
-        <h2>Sample Video (Video with Controls)</h2>
-        <video width="100%" controls>
-            <source src="my_video.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-
-    </main>
+    </div>
 
 </body>
-                        </html>
-                        
+</html>
