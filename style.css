@@ -1,72 +1,42 @@
-/* A unique and modern color palette */
-:root {
-    --background-color: #2c3e50; /* A dark slate blue */
-    --primary-text-color: #ecf0f1; /* A light, off-white */
-    --accent-color: #e67e22; /* A vibrant orange for headings and links */
-    --container-background: #34495e; /* A slightly lighter blue for containers */
+/* External CSS */
+h2 {
+    color: #3498db;
+    margin-top: 30px;
 }
 
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: var(--background-color);
-    color: var(--primary-text-color);
-    margin: 0;
-    padding: 20px;
-    line-height: 1.6;
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
 }
 
-.container {
-    background-color: var(--container-background);
-    padding: 20px;
-    border-radius: 8px;
+video, audio {
     margin-bottom: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-h1, h2 {
-    color: var(--accent-color);
-    border-bottom: 2px solid var(--accent-color);
-    padding-bottom: 10px;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 th, td {
-    padding: 12px;
+    border: 1px solid #ddd;
+    padding: 8px;
     text-align: left;
-    border-bottom: 1px solid #4a6278;
 }
 
 th {
-    background-color: var(--accent-color);
-    color: var(--background-color);
+    background-color: #3498db;
+    color: white;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
 
-ul li {
-    background-color: #4a6278;
-    margin-top: 5px;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-/* Styles for your media */
-img, video {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-top: 10px;
-}
-
-audio {
-    width: 100%;
-    margin-top: 10px;
+.lists-container {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 20px;
 }
