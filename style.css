@@ -1,4 +1,16 @@
 /* External CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    
+    /* This is the solid color for old browsers */
+    background: #4e662b; 
+    
+    /* This is your beautiful new gradient */
+    background: linear-gradient(90deg, rgba(78, 102, 43, 0.84) 0%, rgba(118, 162, 179, 0.91) 49%, rgba(75, 128, 140, 0.91) 100%);
+}
+
 h2 {
     color: #3498db;
     margin-top: 30px;
