@@ -12,8 +12,9 @@ body {
 }
 
 h2 {
-    color: #333333; /* A dark charcoal color */
+    color: #2c3e50; /* A dark slate blue color */
     margin-top: 30px;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.7); /* Adds a subtle white glow */
 }
 
 
