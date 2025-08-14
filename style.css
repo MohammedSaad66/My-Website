@@ -14,22 +14,26 @@ video, audio {
     margin-bottom: 20px;
 }
 
+/* --- Table Styles --- */
+
 table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
+  width: 100%; /* Makes the table fill its container */
+  border-collapse: collapse; /* Merges borders into single lines */
+  margin-bottom: 20px; /* Adds space below the table */
+  box-sizing: border-box; /* Ensures padding and border are included in the width */
 }
 
 th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
+  border: 1px solid #333; /* Creates a 1px solid dark gray border */
+  padding: 10px;         /* Adds space inside each cell */
+  text-align: left;      /* Aligns text to the left */
 }
 
 th {
-    background-color: #3498db;
-    color: white;
+  background-color: #3498db; /* Blue background for the header */
+  color: white;              /* White text for the header */
 }
+
 
 tr:nth-child(even) {
     background-color: #f2f2f2;
