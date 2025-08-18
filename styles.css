@@ -1,13 +1,8 @@
-/* External CSS */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    
-    /* This is the solid color for old browsers */
     background: #4e662b; 
-    
-    /* This is your beautiful new gradient */
     background: linear-gradient(90deg, rgba(78, 102, 43, 0.84) 0%, rgba(118, 162, 179, 0.91) 49%, rgba(75, 128, 140, 0.91) 100%);
 }
 
@@ -28,24 +23,22 @@ video, audio {
     margin-bottom: 20px;
 }
 
-/* --- Table Styles --- */
-
 table {
-  width: 100%; /* Makes the table fill its container */
-  border-collapse: collapse; /* Merges borders into single lines */
-  margin-bottom: 20px; /* Adds space below the table */
-  box-sizing: border-box; /* Ensures padding and border are included in the width */
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  box-sizing: border-box;
 }
 
 th, td {
-  border: 1px solid #333; /* Creates a 1px solid dark gray border */
-  padding: 10px;         /* Adds space inside each cell */
-  text-align: left;      /* Aligns text to the left */
+  border: 1px solid #333;
+  padding: 10px;
+  text-align: left;
 }
 
 th {
-  background-color: #3498db; /* Blue background for the header */
-  color: white;              /* White text for the header */
+  background-color: #3498db;
+  color: white;
 }
 
 
